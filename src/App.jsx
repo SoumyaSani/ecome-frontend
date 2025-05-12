@@ -1,19 +1,17 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { FaBeer } from 'react-icons/fa'
+import Products from './Components/Products'
 
 function App() {
   
 
   return (
-    <div className='flex items-center justify-center h-screen bg-gray-800 text-white
-    text-2xl font-bold'>
+    < >
 
-      Welcome <FaBeer />
+     <Products />
     
-    </div>
+    </>
   )
 }
 
